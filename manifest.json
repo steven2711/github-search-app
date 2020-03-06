@@ -1,0 +1,51 @@
+{
+  "name": "Github Search",
+  "short_name": "Github Search",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/images/icons/96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/icons/128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/icons/144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/icons/152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/images/icons/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons/384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/images/icons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

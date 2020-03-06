@@ -12,6 +12,17 @@ async function getKeys() {
   return response;
 }
 
+// Register service worker
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker
+      .register("/serviceWorker.js")
+      .then(res => console.log("service worker registered"))
+      .catch(err => console.log("service worker not registered", err));
+  });
+}
+
 // Search input
 
 const searchUser = document.getElementById("search-user");
